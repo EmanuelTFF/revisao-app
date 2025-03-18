@@ -40,6 +40,34 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="emulator"
+        options={{
+          title: 'emulator',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="computer" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="config"
+        options={{
+          title: 'Config',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="engineering" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="sobre"
+        options={{
+          title: 'Sobre',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="person" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="estrutura"
+        options={{
+          title: 'Estrutura',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="movie" color={color} />,
+        }}
+      />
     </Tabs>
   );
 }
